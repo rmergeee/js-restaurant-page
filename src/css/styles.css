@@ -1,0 +1,139 @@
+@import url(fonts.css);
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        width: 1440px;
+
+        font-family: 'libre_franklinthin', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        li {
+            cursor: pointer;
+        }
+
+        .logo {
+            font-family: 'ranchoregular', sans-serif;
+            font-size: 96px;
+            font-weight: normal;
+        }
+    }
+}
+
+#content {
+    width: 1440px;
+}
+
+.home-page {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+
+    .hero-img,
+    .hero {
+        width: 600px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        font-family: 'libre_franklinthin', sans-serif;
+
+        .hero-title {
+            text-align: left;
+            font-family: 'josefin_sansthin', sans-serif;
+            font-size: 48px;
+            margin-bottom: 126px;
+
+            .highlight {
+                color: #2A9D8F;
+            }
+        }
+
+        .hero-buttons {
+            margin-bottom: 97px;
+
+            button {
+                border: none;
+                font-size: 20px;
+                margin-right: 107px;
+                cursor: pointer;
+            }
+
+            .hightlight-button {
+                border-radius: 10px;
+                background-color: #E76F51;
+                color: #FFFFFF;
+                padding: 13px 37px;
+                box-shadow: #F4A261 5px 5px 15px;
+            }
+            
+            .neutral-button {
+                background-color: #FFFFFF;
+            }
+        }
+
+        .quick-link-img {
+
+            padding: 0 24px;
+            
+
+            width: 488px;
+
+            display: flex;
+            justify-content: space-between;
+
+            .line {
+                align-self: center;
+                height: 85px;
+                border-left: 1px solid #000000
+            }
+
+
+            .quick-img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: #000000;
+                }
+
+                img {
+                    height: 50px;
+                    width: 50px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}

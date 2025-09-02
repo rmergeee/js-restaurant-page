@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'ranchoregular';
+    src: url('..//fonts/rancho-regular-webfont.woff2') format('woff2'),
+        url('../fonts/rancho-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_franklinthin_italic';
+    src: url('../fonts/librefranklin-italic-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/librefranklin-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'libre_franklinthin';
+    src: url('../fonts/librefranklin-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/librefranklin-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'josefin_sansthin_italic';
+    src: url('../fonts/josefinsans-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/josefinsans-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'josefin_sansthin';
+    src: url('../fonts/josefinsans-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/josefinsans-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
