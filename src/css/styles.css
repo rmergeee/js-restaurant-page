@@ -89,7 +89,7 @@ nav {
                 padding: 13px 37px;
                 box-shadow: #F4A261 5px 5px 15px;
             }
-            
+
             .neutral-button {
                 background-color: #FFFFFF;
             }
@@ -98,7 +98,7 @@ nav {
         .quick-link-img {
 
             padding: 0 24px;
-            
+
 
             width: 488px;
 
@@ -136,4 +136,98 @@ nav {
         }
     }
 
+}
+
+footer {
+    background-color: #333333;
+    color: #FEFEFE;
+    font-family: 'libre_franklinthin', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 102px;
+
+    .footer-info {
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        
+
+        .izquierdo {
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+
+
+            h1 {
+                margin: 59px 0 0 0;
+                font-family: 'ranchoregular', sans-serif;
+                font-size: 96px;
+                font-weight: normal;
+            }
+
+            p {
+                width: 384.5px;
+                font-size: 18px;
+            }
+
+            .socialmedia {
+                display: flex;
+                gap: 62px;
+            }
+        }
+
+        .centro {
+            margin-top: 59px;
+            display: flex;
+            flex-direction: column;
+
+            .time-grid {
+                margin: 21px 0 32px 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                row-gap: 20px;
+                column-gap: 48.5px;
+            }
+
+            .number {
+                margin-top: 20px;
+                display: flex;
+                gap: 24.5px;
+            }
+        }
+
+        .derecha {
+            margin-top: 59px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .adress {
+                display: flex;
+                gap: 11.5px;
+            }
+        }
+
+        .mini-title {
+            width: 155px;
+            font-family: 'josefin_sansthin', sans-serif;
+            color: #E76F51;
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 11px;
+            border-bottom: 1px solid #FFFFFF;
+        }
+    }
+
+    .signature {
+        padding: 16px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
 }
