@@ -1,6 +1,6 @@
 import Utils from "./utils.js";
 
-export default class Nosotros {
+export default class Reservacion {
     constructor() {
         this.content = document.querySelector("#content")
         this.ctu = new Utils();
