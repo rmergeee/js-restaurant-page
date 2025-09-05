@@ -1,9 +1,13 @@
 import "./css/styles.css";
-import HomeContent from "./classes/home.js"
+import Home from "./classes/home.js"
 import Nosotros from "./classes/nosotros.js"
+import Menu from "./classes/menu.js";
+import Reservacion from "./classes/reservacion.js";
 
 const nosotros = new Nosotros();
-const home = new HomeContent();
+const menu = new Menu();
+const reservacion = new Reservacion();
+const home = new Home();
 
 home.init();
 
@@ -11,4 +15,10 @@ const homePage = document.querySelector("#resto");
 homePage.addEventListener("click", () => home.init())
 
 const nosotrosPage = document.querySelector("#nosotros");
-nosotrosPage.addEventListener("click", () => home.init())
+nosotrosPage.addEventListener("click", () => nosotros.init())
+
+const menuPage = document.querySelector("#nosotros");
+nosotrosPage.addEventListener("click", () => menu.init())
+
+const reservacionPage = document.querySelector("#nosotros");
+nosotrosPage.addEventListener("click", () => reservacion.init())

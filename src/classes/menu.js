@@ -5,4 +5,8 @@ export default class Menu {
         this.content = document.querySelector("#content")
         this.ctu = new Utils();
     }
+
+    init() {
+        this.content.textContent = "";
+    }
 }
