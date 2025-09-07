@@ -7,29 +7,28 @@ import imgSupport from "/src/img/support.svg";
 
 export default class Home {
     constructor() {
-        this.content = document.querySelector("#content")
-        this.ctu = new Utils();
+        this.content = document.querySelector("#content");
     }
 
     createElements() {
-        this.hero = this.ctu.createTag("div", "hero");
-        this.heroImg = this.ctu.createTag("img", "hero-img");
+        this.hero = Utils.createTag("div", "hero");
+        this.heroImg = Utils.createTag("img", "hero-img");
         this.heroImg.src = imgKoreanDish;
 
-        this.heroTitle = this.ctu.createTag("h1", "hero-title");
+        this.heroTitle = Utils.createTag("h1", "hero-title");
         this.heroTitle.innerHTML = `Comida casera,<br> saludable y <strong class="highlight">vegana</strong>.`;
 
-        this.heroButtons = this.ctu.createTag("div","hero-buttons");
+        this.heroButtons = Utils.createTag("div","hero-buttons");
         this.heroButtons.innerHTML = `<button class="hightlight-button">Ver Menu</button><button class="neutral-button">Local Cerca</button>`;
 
-        this.quickLinkImg = this.ctu.createTag("div","quick-link-img");
+        this.quickLinkImg = Utils.createTag("div","quick-link-img");
 
         this.quickLinkImg.append(
-            this.ctu.createQuickImg(imgLeaf, "Fresco"),
-            this.ctu.createTag("div", "line"),
-            this.ctu.createQuickImg(imgRocket, "Rapido"),
-            this.ctu.createTag("div", "line"),
-            this.ctu.createQuickImg(imgSupport, "Soporte")
+            Utils.createQuickImg(imgLeaf, "Fresco"),
+            Utils.createTag("div", "line"),
+            Utils.createQuickImg(imgRocket, "Rapido"),
+            Utils.createTag("div", "line"),
+            Utils.createQuickImg(imgSupport, "Soporte")
         )
     }
 

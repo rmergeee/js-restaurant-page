@@ -1,11 +1,11 @@
 export default class Utils {
-    createTag = (tag, className) => {
+    static createTag = (tag, className) => {
         const element = document.createElement(tag);
         element.className = className;
         return element;
     }
 
-    createQuickImg = (src, alt) => {
+    static createQuickImg = (src, alt) => {
         const quickImg = this.createTag("div", "quick-img");
         const img = document.createElement("img");
         img.src = src;
