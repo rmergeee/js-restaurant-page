@@ -8,7 +8,7 @@ export default class Utils {
     static createTagWithText = (tag, className, text) => {
         const element = document.createElement(tag);
         element.className = className;
-        element.textContent = text;
+        element.innerHTML = text;
         return element;
     }
 
