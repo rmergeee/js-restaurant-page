@@ -26,6 +26,21 @@ export default class Utils {
         return quickImg;
     }
 
+    static createCoffeCard(src, alt) {
+        const position = this.createTag("div", "menu-position");
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = alt;
+        const p = document.createElement("p");
+        const h4 = document.createElement("h4");
+        const info = this.createTag("div", "coffe-info");
+        h4.innerHTML = `Cafe con Lache <span class="price">$150</span>`;
+        p.textContent = "3 criollitos, Mermelada";
+        info.append(h4, p);
+        position.append(img, info);
+        return position;
+    }
+
     static createCookCard(cook, socialIcons) {
         const card = this.createTag("article", "cook");
         const img = this.createTag("img", "cook-img");
@@ -52,5 +67,4 @@ export default class Utils {
         
         return card;
     }
-
 }
