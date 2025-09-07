@@ -17,8 +17,8 @@ homePage.addEventListener("click", () => home.init())
 const nosotrosPage = document.querySelector("#nosotros");
 nosotrosPage.addEventListener("click", () => nosotros.init())
 
-const menuPage = document.querySelector("#nosotros");
-nosotrosPage.addEventListener("click", () => menu.init())
+const menuPage = document.querySelector("#menu");
+menuPage.addEventListener("click", () => menu.init())
 
-const reservacionPage = document.querySelector("#nosotros");
-nosotrosPage.addEventListener("click", () => reservacion.init())
+const reservacionPage = document.querySelector("#reservacion");
+reservacionPage.addEventListener("click", () => reservacion.init())

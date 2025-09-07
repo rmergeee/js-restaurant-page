@@ -138,6 +138,78 @@ nav {
 
 }
 
+.h2-title {
+    font-family: 'ranchoregular', sans-serif;
+    font-size: 64px;
+    font-weight: lighter;
+    margin: 0 0 20px 0;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+    .expertos {
+        font-family: 'josefin_sansthin', sans-serif;
+        font-size: 24px;
+        color: #E76F51;
+        font-weight: bold;
+    }
+
+    .cooks {
+        display: flex;
+        gap: 75px;
+        margin-bottom: 57px;
+
+        .cook {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+            .cook-info {
+                position: absolute;
+                width: 270px;
+                height: 130px;
+                background-color: #FFFFFF;
+                font-family: 'libre_franklinthin', sans-serif;
+
+                margin-bottom: 21px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                .cook-name {
+                    margin: 0;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+
+                .cook-position {
+                    margin: 0;
+                    font-size: 20px;
+                    font-weight: lighter;
+                }
+
+                .cook-social-media {
+                    margin: 0;
+                    display: flex;
+                    gap: 30px;
+
+                    img  {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 footer {
     background-color: #333333;
     color: #FEFEFE;
@@ -152,7 +224,7 @@ footer {
         width: 1440px;
         display: flex;
         justify-content: space-between;
-        
+
 
         .izquierdo {
             display: flex;
