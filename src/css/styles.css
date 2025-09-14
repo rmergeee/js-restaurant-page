@@ -382,3 +382,112 @@ a {
     color: inherit;
     outline: none;
 }
+
+.reservacion {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 940px;
+
+    .background {
+        background-image: url(/src/img/pexels-ketut-subiyanto.jpg);
+        width: 1440px;
+        height: 735px;
+    }
+
+    form {
+        box-sizing: border-box;
+        position: absolute;
+        align-self: self-end;
+        margin-top: 87px;
+        margin-right: 156px;
+        width: 430px;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.8);
+
+        .h2-title {
+            text-align: center;
+            color: white;
+            margin: 0 0 0 0;
+            padding: 0;
+        }
+
+        .expertos {
+            text-align: center;
+            margin: 54.62px 0 0 0;
+            padding: 0;
+        }
+
+        fieldset {
+            padding: 0;
+            margin-left: 38px;
+            margin-right: 38px;
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            border: none;
+            gap: 34.3px;
+
+            input {
+                width: 350px;
+                height: 42.84px;
+            }
+
+            input,
+            textarea {
+                box-sizing: border-box;
+                border: none;
+                border-radius: 5px;
+
+                padding: 8px;
+
+                font-family: 'josefin_sansthin', sans-serif;
+                font-size: 24px;
+            }
+
+            input:focus,
+            textarea:focus {
+                border-color: #007bff;
+                box-shadow: 0 0 5px rgb(255, 255, 255);
+                outline: none;
+            }
+
+            textarea {
+                width: 350px;
+                height: 144.58px;
+            }
+
+            input::placeholder,
+            textarea::placeholder {
+                font-family: 'josefin_sansthin', sans-serif;
+                font-size: 24px;
+            }
+
+            div {
+                display: flex;
+                gap: 34.3px;
+            }
+
+            #fecha,
+            #hora {
+                width: 160px;
+            }
+
+            .form-button {
+                background-color: #2A9D8F;
+                width: 170px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'libre_franklinthin', sans-serif;
+                font-size: 20px;
+                border: none;
+                border-radius: 10px;
+                color: #FFFFFF;
+                align-self: self-end;
+            }
+        }
+    }
+}
