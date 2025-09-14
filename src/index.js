@@ -9,7 +9,7 @@ const menu = new Menu();
 const reservacion = new Reservacion();
 const home = new Home();
 
-reservacion.init();
+home.init();
 
 const homePage = document.querySelector("#resto");
 homePage.addEventListener("click", () => home.init())
